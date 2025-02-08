@@ -1,5 +1,6 @@
 :root {
     --primary-color: #007bff;
+    --secondary-color:#131D39;
 }
 body {
     overflow-x: hidden;
@@ -18,7 +19,7 @@ a{
 /*SECTION_1 */
 .sec1 {
     min-height:100vh;
-    background-color: #011c33;
+    background-color: var(--secondary-color);
 }
 .sec1 span{
   
@@ -27,10 +28,7 @@ a{
 .sec1 .carousel-inner img {
     width:500px;
 }
-.sec1 .btn-Explore a{
-    text-decoration: none;
-   
-}
+
 
 .sec1 .btn-Explore a span{
     background-color:#0088FF;
@@ -39,13 +37,13 @@ a{
  }
  .sec1 .btn-Explore a:hover{
     background-color:white !important;
-    color: #011c33 !important;
+    color:  var(--secondary-color) !important;
  }
  .sec1 .btn-Explore a:hover span {
-    background-color: #E9ECEF !important; 
+    background-color: #beccd9 !important; 
  }
  .sec1 .btn-Explore a:hover i {
-   color: #011c33 !important; 
+   color:  var(--secondary-color) !important; 
  }
 /*SECTION_1 */
 
@@ -62,7 +60,7 @@ a{
     
 }
 .sec2 a:hover{
-    background-color:#011c33 !important;
+    background-color: var(--secondary-color) !important;
     color: white !important;
 }
 /*SECTION_2*/
@@ -70,7 +68,8 @@ a{
 /*SECTION_3*/
 .sec3{
     margin-top:95px;
-    height: 100vh;
+    min-height: 100vh;
+    margin-bottom:110px !important;
 }
 .sec3 .btn-Explore a{
     text-decoration: none !important;
@@ -84,25 +83,22 @@ a{
      height: 30px;
  }
  .sec3 .btn-Explore a:hover{
-    background-color:#011c33 !important;
+    background-color: var(--secondary-color) !important;
     color: white !important;
  }
  .sec3 .btn-Explore a:hover span {
-    background-color: #012647!important; 
+    background-color: #012647 !important; 
  }
  .sec3 .btn-Explore a:hover i {
    color: white !important; 
  }
  
- btn-Smart 
+
  .sec3 .btn-Smart a{
     text-decoration: none;
    
 }
- .sec3 .btn-Smart a{
-    text-decoration: none;
-   
-}
+
 
 .sec3 .btn-Smart a span{
     background-color:#0088FF;
@@ -111,20 +107,21 @@ a{
  }
  .sec3 .btn-Smart a:hover{
     background-color:white !important;
-    color: #011c33 !important;
+    color: var(--secondary-color) !important;
  }
  .sec3 .btn-Smart a:hover span {
     background-color: #E9ECEF !important; 
  }
  .sec3 .btn-Smart a:hover i {
-   color: #011c33 !important; 
+   color:var(--secondary-color) !important; 
  }
 /*SECTION_3*/
 
 /*SECTION_4*/
 .sec4{
-    margin-top:110px;
-   height:100vh;
+   margin-top:110px ;
+ min-height:100vh;
+  margin-bottom:100px !important;
 }
 .btnAddCart {
     display: none !important; 
@@ -135,7 +132,7 @@ a{
     
 }
  .btnAddCart a:hover {
-    background-color: #011c33 !important;
+    background-color: var(--secondary-color) !important;
     color: white !important; 
     cursor: pointer !important; 
  }
@@ -146,5 +143,48 @@ a{
  .sec4  .card:hover .card-title{
    color: var(--primary-color) !important;;
  }
+.btnShop span{
+    background-color:#0088FF;
+    width: 30px; 
+    height: 30px;
+}
+.btnShop a:hover{
+    transform: translateY(-3px);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+ }
+
 
 /*SECTION_4*/
+
+
+/*SECTION_5*/
+.sec5{
+    margin-top:110px ;
+    min-height:100vh;
+     margin-bottom:110px !important;
+     background-color: #f0f4fd;
+    
+}
+.sec5 .spanDeal {
+    background-color:var(--secondary-color);
+    gap-top:500px !important;
+}
+.sec5 h1 span{
+    color: var(--primary-color) !important;
+}
+.sec5 .btn-Off  a span{
+    background-color:#0088FF;
+     width: 30px; 
+     height: 30px;
+ }
+ .sec5 .btn-Off  a:hover{
+    background-color:var(--secondary-color) !important;
+    color:white !important;
+ }
+ .sec5 .btn-Off  a:hover span {
+    background-color:  #0b80e7dc !important; 
+ }
+ .sec5 .btn-Off  a:hover i {
+   color: var(--secondary-color)  !important; 
+ }
+/*SECTION_5*/
