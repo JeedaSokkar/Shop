@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #007bff;
+}
+body {
+    overflow-x: hidden;
+}
+/*NAVBAR*/
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+
+    color: var(--primary-color) !important;
+  
+}
+a{
+    text-decoration: none !important;
+}
+/*NAVBAR*/
+/*SECTION_1 */
+.sec1 {
+    min-height:100vh;
+    background-color: #011c33;
+}
+.sec1 span{
+  
+    color: var(--primary-color) !important;
+}
+.sec1 .carousel-inner img {
+    width:500px;
+}
+.sec1 .btn-Explore a{
+    text-decoration: none;
+   
+}
+
+.sec1 .btn-Explore a span{
+    background-color:#0088FF;
+     width: 30px; 
+     height: 30px;
+ }
+ .sec1 .btn-Explore a:hover{
+    background-color:white !important;
+    color: #011c33 !important;
+ }
+ .sec1 .btn-Explore a:hover span {
+    background-color: #E9ECEF !important; 
+ }
+ .sec1 .btn-Explore a:hover i {
+   color: #011c33 !important; 
+ }
+/*SECTION_1 */
+
+/*SECTION_2*/
+.sec2{
+    margin-top:95px;
+     padding-right: 100px;
+}
+
+.sec2 img{
+    width:70%;
+    height:70%;
+    object-fit: contain;
+    
+}
+.sec2 a:hover{
+    background-color:#011c33 !important;
+    color: white !important;
+}
+/*SECTION_2*/
+
+/*SECTION_3*/
+.sec3{
+    margin-top:95px;
+    height: 100vh;
+}
+.sec3 .btn-Explore a{
+    text-decoration: none !important;
+    background-color:white !important;
+    color: var(--primary-color) !important;
+}
+
+.sec3 .btn-Explore a span{
+    background-color:#bee3f8;
+     width: 30px; 
+     height: 30px;
+ }
+ .sec3 .btn-Explore a:hover{
+    background-color:#011c33 !important;
+    color: white !important;
+ }
+ .sec3 .btn-Explore a:hover span {
+    background-color: #012647!important; 
+ }
+ .sec3 .btn-Explore a:hover i {
+   color: white !important; 
+ }
+ 
+ btn-Smart 
+ .sec3 .btn-Smart a{
+    text-decoration: none;
+   
+}
+ .sec3 .btn-Smart a{
+    text-decoration: none;
+   
+}
+
+.sec3 .btn-Smart a span{
+    background-color:#0088FF;
+     width: 30px; 
+     height: 30px;
+ }
+ .sec3 .btn-Smart a:hover{
+    background-color:white !important;
+    color: #011c33 !important;
+ }
+ .sec3 .btn-Smart a:hover span {
+    background-color: #E9ECEF !important; 
+ }
+ .sec3 .btn-Smart a:hover i {
+   color: #011c33 !important; 
+ }
+/*SECTION_3*/
+
+/*SECTION_4*/
+.sec4{
+    margin-top:110px;
+   height:100vh;
+}
+.btnAddCart {
+    display: none !important; 
+}
+
+ .sec4 .card:hover .btnAddCart  {
+    display: flex !important;
+    
+}
+ .btnAddCart a:hover {
+    background-color: #011c33 !important;
+    color: white !important; 
+    cursor: pointer !important; 
+ }
+  .btnAddCart a:hover span i {
+   color: white !important; 
+
+ }
+ .sec4  .card:hover .card-title{
+   color: var(--primary-color) !important;;
+ }
+
+/*SECTION_4*/
