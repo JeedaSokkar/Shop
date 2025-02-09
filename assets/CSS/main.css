@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --primary-color: #007bff;
     --secondary-color:#131D39;
@@ -188,3 +189,51 @@ a{
    color: var(--secondary-color)  !important; 
  }
 /*SECTION_5*/
+
+/*SECTION_6*/
+.sec6{
+    margin-top:110px ;
+    min-height:100vh;
+    margin-bottom:110px !important;
+ 
+}
+.sec6 h4{
+    font-family: "Sour Gummy", serif;
+    color: var(--secondary-color)  !important; 
+}
+.sec6 img{
+    margin-bottom:20px;
+    height: 300px !important;
+    object-fit: cover;
+}
+.sec6 .btn-News {
+    border-color: var(--primary-color) !important;
+}
+.sec6 .btn-News a span {
+    width: 30px; 
+    height: 30px;
+    color:var(--secondary-color) !important;
+}
+.sec6 .btn-News a h6{
+    color: var(--secondary-color) !important;
+}
+.sec6 .btn-News a:hover{
+    background-color:var(--secondary-color) !important;
+
+    border-color:var(--secondary-color)  !important;
+ }
+ .sec6 .btn-News a:hover h6{
+    
+    color:  white !important;
+    
+ }
+ .sec6 .btn-News a:hover span {
+    background-color: #beccd9 !important; 
+    border-color: #beccd9 !important;
+ }
+ .sec6 .btn-News a:hover i {
+   color: white !important; 
+ }
+
+
+/*SECTION_6*/
