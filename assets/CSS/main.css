@@ -194,7 +194,7 @@ a{
 .sec6{
     margin-top:110px ;
     min-height:100vh;
-    margin-bottom:110px !important;
+    margin-bottom:80px !important;
  
 }
 .sec6 h4{
@@ -237,3 +237,45 @@ a{
 
 
 /*SECTION_6*/
+
+/*SECTION_7*/
+.sec7{
+    margin-top:90px ;
+     margin-bottom:70px !important;
+     background-color: var(--secondary-color) !important;
+    
+}
+.sec7 .sec7-New{
+    padding: 30px;
+
+}
+.sec7 .btn-Email input{
+    background-color:#012647 !important ;
+    color: white;
+    font-weight: 300 !important;
+    border-color: var(--secondary-color) !important ;
+}
+.sec7 .btn-Email input::placeholder{
+    
+    color: white;
+    font-size: 15px;
+
+}
+
+.sec7 .btn-Email .btn-subscribe:hover{
+    background-color: white !important;
+    color:var(--secondary-color) !important;
+    
+}
+/*SECTION_8*/
+.sec8{
+    margin-top:110px ;
+    margin-bottom:20px;
+     background-color: #f0f4fd;
+     color:var(--secondary-color) !important;
+}
+.sec8 .item:hover{
+color: var(--primary-color) !important;
+}
+/*SECTION_8*/
+
