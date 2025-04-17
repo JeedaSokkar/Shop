@@ -1,6 +1,6 @@
 /*Section5 */
 const countDown=()=>{
-    const contDownData=new Date("2025-02-25T00:00:00").getTime();
+    const contDownData=new Date("2026-02-25T00:00:00").getTime();
     const now=new Date().getTime();
     const distance =contDownData-now;
     const days=Math.floor(distance/86400000);
